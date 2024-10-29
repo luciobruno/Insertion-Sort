@@ -22,22 +22,15 @@ Este arquivo possui as seguintes funcionalidades:
 - **Ordenação com `Insertion Sort`**: Ordena o array de entrada em ordem crescente utilizando o método de `Insertion Sort`.
 - **Impressão do Array**: Exibe o array antes e após a ordenação para facilitar a visualização dos resultados.
 
-## Funcionalidades e Resultados
+## Resultados
 
-### `codigo_base.c`
+<br>
 
-O codigo_base.c implementa e avalia o desempenho do Insertion Sort em diferentes cenários:
-
-- **Ordenação Completa**: O vetor é ordenado em ordem crescente e decrescente para analisar o desempenho do algoritmo em listas completamente ordenadas.
-- **Ordenação Parcial**: O vetor é dividido em duas metades, com uma metade ordenada em ordem crescente e a outra em ordem decrescente (e vice-versa), simulando situações de ordenação parcial.
-- **Inicialização e Aleatoriedade**: O vetor é inicializado com valores aleatórios entre as operações de ordenação, permitindo testar o algoritmo em listas desordenadas.
-- **Medição do Tempo de Execução**: Para cada ordenação, o tempo de execução é exibido, permitindo observar como a disposição dos dados afeta o desempenho do Insertion Sort.
-
-### `codigo_com_10_interacoes.c`
-
-O codigo_com_10_interacoes.c implementa uma versão simples do Insertion Sort, permitindo a observação direta de sua funcionalidade:
-
-- **Exibição dos Dados**: O array é exibido na tela antes da ordenação, facilitando a comparação com o array ordenado.
-- **Ordenação e Exibição**: Após a ordenação, o array ordenado é exibido, permitindo visualizar o efeito da ordenação.
-
-O Insertion Sort é eficiente em pequenos arrays ou em listas quase ordenadas, sendo prático para estudos e demonstração dos princípios básicos de ordenação.
+| **Tabela de Comparação de Tempos para 100000 Números** |                        |
+|------------------------------------|------------------------|
+| **Passos**                         | **Tempo de execução**  |
+| Vetor totalmente ordenado decrescentemente | 6,05s           |
+| Vetor totalmente ordenado crescentemente   | 12,05s          |
+| Primeira metade ordenada crescente, segunda metade ordenada decrescentemente | 3,11s |
+| Primeira metade ordenada decrescente, segunda metade ordenada crescentemente | 5,83s |
+| Elementos totalmente desordenados           | 6,16s           |
