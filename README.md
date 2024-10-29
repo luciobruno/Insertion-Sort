@@ -19,7 +19,7 @@ Este arquivo contém uma implementação mais complexa do algoritmo de ordenaç�
 
 Este arquivo possui as seguintes funcionalidades:
 
-- **Ordenação com `Insertion Sort`**: Ordena o array de entrada em ordem crescente utilizando o método de `Insertion Sort`.
+- **Ordenação com Insertion Sort**: Ordena o array de entrada em ordem crescente utilizando o método de `Insertion Sort`.
 - **Impressão do Array**: Exibe o array antes e após a ordenação para facilitar a visualização dos resultados.
 
 ## Resultados
